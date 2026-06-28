@@ -1,16 +1,74 @@
-# React + Vite
+# React Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive image gallery built with **React**, **Axios**, **Tailwind CSS**, and the **Lorem Picsum API**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 📸 Fetch images from the Lorem Picsum API
+* ⚛️ Built with React Functional Components
+* 🔄 Pagination (Next & Previous buttons)
+* 🧩 Reusable Card component
+* 🎨 Responsive UI with Tailwind CSS
+* ⏳ Loading indicator while fetching data
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Axios
+* Tailwind CSS
+* Vite
+* Lorem Picsum API
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+│   └── Card.jsx
+├── App.jsx
+├── main.jsx
+```
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Riya15s/react-image-gallery.git
+```
+
+Go to the project directory:
+
+```bash
+cd react-image-gallery
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📸 API Used
+
+https://picsum.photos/
+
+## 🌟 Future Improvements
+
+* Search images
+* Infinite scrolling
+* Image modal preview
+* Favorites feature
+
+## 👩‍💻 Author
+
+**Riya Jagriti**
+
+GitHub: https://github.com/Riya15s
+
